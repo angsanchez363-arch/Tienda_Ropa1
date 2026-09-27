@@ -21,7 +21,7 @@ app.use('/ventas', ventasRouter);
 
 // Ruta de prueba
 app.get('/', (req, res) => {
-  res.json({ mensaje: 'API ATELIER 27 — Tienda de Ropa funcionando correctamente' });
+  res.json({ mensaje: 'API ATELIER 27 - Tienda de Ropa funcionando correctamente' });
 });
 
 // Manejo de errores
@@ -30,6 +30,6 @@ app.use((err, req, res, next) => {
   res.status(500).json({ error: 'Error interno del servidor' });
 });
 
-app.listen(PORT, '0,0,0,0' () => {
-  console.log(`Servidor backend ATELIER 27 corriendo en http://localhost:${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(Servidor backend ATELIER 27 corriendo en http://localhost:${PORT});
 });
