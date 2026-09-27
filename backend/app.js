@@ -31,5 +31,5 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(PORT, '0.0.0.0', () => {
-  console.log(Servidor backend ATELIER 27 corriendo en http://localhost:${PORT});
+  console.log('Servidor backend ATELIER 27 corriendo en http://localhost:${PORT}');
 });
